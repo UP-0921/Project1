@@ -38,9 +38,11 @@ int main(void) {
 	{
 		for (int j = 1; j <= m; j++)
 		{
-			printf("%d", j);
+			printf("1");
 		}
 		printf("\n");
 	}
+	// 왜 안바끼는데요?
+// 왜 안바끼는데요?
 	return 0;
 }
