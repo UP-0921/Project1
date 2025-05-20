@@ -17,7 +17,7 @@ int main(void) {
 		printf("\n");
 	}*/
 
-	int m = 0, n = 0, sum = 0;
+	/*int m = 0, n = 0, sum = 0;
 	printf("m = ");
 	scanf_s("%d", &m);
 	for  (int i = 0;  i < m ; i++)
@@ -30,6 +30,17 @@ int main(void) {
 		}
 		printf("%d\n",sum);
 		sum = 0;
+	}*/
+	int n = 0, m = 0;
+	printf(" n m = ");
+	scanf_s("%d %d", &n, &m);
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 1; j <= m; j++)
+		{
+			printf("%d", j);
+		}
+		printf("\n");
 	}
 	return 0;
 }
