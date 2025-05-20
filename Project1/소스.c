@@ -31,7 +31,7 @@ int main(void) {
 		printf("%d\n",sum);
 		sum = 0;
 	}*/
-	int n = 0, m = 0;
+	/*int n = 0, m = 0;
 	printf(" n m = ");
 	scanf_s("%d %d", &n, &m);
 	for (int i = 0; i < n; i++)
@@ -41,8 +41,60 @@ int main(void) {
 			printf("1");
 		}
 		printf("\n");
+		for (int j = 1; j <= m; j++)
+		{
+			printf("%d", j);
+		}
+		printf("\n");
+		for (int j = 0; j < m; j++)
+		{
+			printf("%d", j);
+
+		}
+		printf("\n");
+	}*/
+
+	/*int sum = 0, tmp = 0, cnt = 0, n = 0, m = 0;
+	printf("n m = ");
+	scanf_s("%d %d", &n, &m);
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 1; j <= m ; j++)
+		{
+			printf("%02d ", (sum +j));
+			tmp = j + sum;
+		}
+		sum = tmp;
+		printf("\n");
+		
 	}
-	// 왜 안바끼는데요?
-// 왜 안바끼는데요?
+	printf("\n");
+	for (int i = 0; i < n; i++)
+	{
+		for (int j = 1; j <= m; j++)
+		{
+			printf("%02d ", (cnt + j));
+			
+		}
+		cnt++;
+		printf("\n");
+	}*/
+	/*int n = 0, m = 0;
+	printf(" n m = ");
+	scanf_s("%d %d", &n, &m);
+	for (int i = 0; i < n/2; i++)
+	{
+		for (int j = 1; j <= m; j++)
+		{
+			printf("%d", j);
+		}
+		printf("\n");
+		for (int j = 0; j < m; j++)
+		{
+			printf("%d",(m - j));
+
+		}
+		printf("\n");
+	}*/
 	return 0;
 }
